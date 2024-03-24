@@ -4,6 +4,8 @@
     "type": "library",
     "require": {
         "php": "^8.3",
+        "potter/aware": "dev-main",
+        "potter/cloneable-trait": "dev-main",
         "potter/link": "dev-main",
         "potter/evolvable-link-interface": "dev-main",
         "potter/evolvable-link-trait": "dev-main"
