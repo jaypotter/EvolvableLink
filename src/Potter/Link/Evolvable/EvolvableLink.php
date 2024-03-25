@@ -17,7 +17,7 @@ use Potter\Link\{
     LinkTrait
 };
 
-final class EvolvableLink implements AwareInterface, CloneableInterface, EvolvableLinkInterface, LinkInterface
+final class EvolvableLink extends AbstractEvolvableLink implements AwareInterface, CloneableInterface, LinkInterface
 {
     use AwareTrait, CloneableTrait, EvolvableLinkTrait, LinkTrait;
     
