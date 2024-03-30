@@ -7,8 +7,13 @@
         "potter/aware": "dev-main",
         "potter/cloneable-trait": "dev-main",
         "potter/link": "dev-main",
-        "potter/evolvable-link-interface": "dev-main",
-        "potter/evolvable-link-trait": "dev-main"
+        "potter/evolvable-link-interfaces": "dev-main",
+        "potter/evolvable-link-traits": "dev-main"
+    },
+    "suggest": {
+        "potter/link": "dev-main",
+        "potter/components": "dev-main",
+        "potter/framework": "dev-main"
     },
     "license": "MIT",
     "autoload": {
